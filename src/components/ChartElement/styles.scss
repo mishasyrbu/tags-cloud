@@ -1,0 +1,24 @@
+.chart-element {
+  padding: 0;
+  margin: 0  0 20px;
+
+  & > li {
+    display: flex;
+    list-style-type: none;
+    margin: 4px 0;
+
+    .date {
+      width: 140px;
+    }
+    .volume {
+      display: flex;
+      align-items: center;
+
+      .graph-line {
+        height: 4px;
+        background-color: blue;
+        min-width: 4px;
+      }
+    }
+  }
+}

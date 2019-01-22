@@ -1,0 +1,44 @@
+.tag-detail {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+
+  .mentions-block {
+    margin: 20px 0;
+
+    .mentions-list {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+
+      > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        border-radius: 4px;
+        height: 40px;
+        width: 30%;
+      }
+      .positive {
+        border: 1px solid green;
+      }
+      .neutral {
+        border: 1px solid #ffc43a;
+      }
+      .negative {
+        border: 1px solid red;
+      }
+    }
+  }
+
+  .page-types-block {
+    .page-types li span {
+      display: inline-block;
+      width: 100px;
+      margin: 4px 0;
+      font-weight: 500;
+    }
+  }
+}
